@@ -1,0 +1,24 @@
+{
+    "name": "test",
+    "modifications": {
+        "addFile": [],
+        "patchScript": [],
+        "replaceFile": [
+            {
+                "name": "dependencias.json",
+                "path": "config/"
+            }
+        ],
+        "deleteFile": [],
+        "patchJson": [
+            {
+                "name": "urls.json",
+                "path": "config/"
+            },
+            {
+                "name": "registros.json",
+                "path": "config/"
+            }
+        ]
+    }
+}
